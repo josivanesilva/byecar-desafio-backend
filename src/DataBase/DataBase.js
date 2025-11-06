@@ -5,7 +5,7 @@ const sequelize = new Sequelize('postgres', 'postgres', '2020', {
   host: 'localhost',
   dialect: 'postgres',
   port: 5432,
-  logging: false // Desativa logs SQL
+  logging: false
 });
 
 sequelize.authenticate()

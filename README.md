@@ -45,26 +45,32 @@
 
 # Estrutura do projeto:
 
-	src/
-	|─ DataBase/
-	|  |─ DataBase.js       #conexão direta com Postgres
-	|─ modules/
-	|  |─ user/
-	|  |  |─ UserController.js
-	|  |  |─ UserService.js
-	|  |  |─ UserModel.js
-	|  |─ Client/
-	|  |  |─ ClientController.js
-	|  |  |─ ClientService.js
-	|  |  |─ ClientModel.js
-	|  |─ Sales/
-	|  |  |─ SalesController.js
-	|  |  |─ SalesService.js
-	|  |  |─ SalesModel.js
-	|  |─ Authentication/
-	|     |─ AuthenticationService.js  #AUtenticação Basic Auth
-	|─ app.js
-	|─ server.js
+	BYECAR-DESAFIO-BACKEND
+	|-  |node_modules
+	|	|src/
+	|	|- DataBase/
+	|	|- |- DataBase.js	#conexão direta com Postgres
+	|	|- modules/
+	|	|  |- Authentication/
+	|	|  |  |- AnthenticationService.js	#AUtenticação Basic Auth
+	|	|  |- Client/
+	|	|  |  |- ClientController.js
+	|	|  |  |- ClientModel.js
+	|	|  |  |- ClientService.js
+	|	|  |- Sales/
+	|	|  |  |- SalesController.js
+	|	|  |  |- SalesModel.js
+	|	|  |  |- SalesService.js
+	|	|  |- user/
+	|	|  |  |- UserController.js
+	|	|  |  |- UserModel.js
+	|	|  |  |- UserService.js
+	|	|- app.js
+	|	|- server.js
+	|- .gitignore
+	|- package-lock.json
+	|- package.json
+	|- README.md
 
 # Endpoints /api:
 
@@ -138,8 +144,7 @@ Criar Vendas (Com Autenticação):
 	
 		{
 			"nameProduct": "Tênis Adidas",
-			"quantityItems": 1,
-			"valueItem": 389.99,
-			"totalValue": 389.99,
-			"clientId": 1
+			"quantityItems": 2,
+			"valueItem": 10.33,
+			"clientId": 2
 		}
