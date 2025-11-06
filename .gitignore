@@ -1,0 +1,36 @@
+# === DEPENDÊNCIAS DO NODE ===
+node_modules/
+npm-debug.log
+yarn-debug.log
+yarn-error.log
+package-lock.json
+
+# === ARQUIVOS DE AMBIENTE ===
+.env
+.env.local
+.env.development
+.env.production
+
+# === LOGS ===
+logs
+*.log
+debug.log
+
+# === SISTEMAS OPERACIONAIS ===
+.DS_Store
+Thumbs.db
+
+# === ARQUIVOS TEMPORÁRIOS ===
+tmp/
+dist/
+build/
+coverage/
+
+# === IDEs E EDITORES ===
+.vscode/
+.idea/
+*.swp
+
+# === BACKUPS E OUTROS ===
+*.bak
+*.tmp
