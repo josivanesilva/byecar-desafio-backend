@@ -52,7 +52,7 @@
 	|	|- |- DataBase.js	#conexão direta com Postgres
 	|	|- modules/
 	|	|  |- Authentication/
-	|	|  |  |- AnthenticationService.js	#AUtenticação Basic Auth
+	|	|  |  |- AnthenticationService.js	#Autenticação Basic Auth
 	|	|  |- Client/
 	|	|  |  |- ClientController.js
 	|	|  |  |- ClientModel.js
